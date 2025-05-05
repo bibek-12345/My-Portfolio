@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibek Bhattarai Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7240851c1e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+<div id="particles-js"></div>
+<div id="header">
+    <div class="container">
+        <nav>
+             <h1><span id="name">Bibek</span>&nbsp;Bhattarai</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
+                <li><a href="#portfolio1">Qualifications</a></li>
+                <li><a href="#skills-animated">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="images/my-cv.pdf" target="_blank" download>Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h3 id="zoom-role">Software Developer</h3>
+            <h1><span id="typing-text"></span><span class="cursor">|</span></h1>
+        </div>          
+    </div>
+</div>
+<!-- ------------About------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg"alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Bibek Bhattarai, a passionate and dedicated full stack software developer originally from Nepal, now based in Canada. With a strong foundation in Computer Science and Engineering from Dr. Ambedkar Institute of Technology in Bangalore, India, and currently pursuing a Postgraduate Diploma in Full Stack Software Development at Lambton College in North York, I’ve developed a deep understanding of both frontend and backend technologies. My journey into software development began with a fascination for how things work behind the scenes — that curiosity quickly grew into a purpose-driven passion for building web and mobile applications that solve real-world problems. I enjoy crafting user-friendly interfaces with HTML, CSS, JavaScript, and React, while also developing robust backend solutions using Node.js, Express, and MongoDB. My projects reflect a blend of creativity, functionality, and scalability, and I’m always seeking new challenges that help me grow as a developer. In addition to technical skills, I bring strong communication, collaboration, and problem-solving abilities to the table, which I’ve developed through both academic work and real-world experience. I thrive in dynamic environments and believe in continuous learning — constantly exploring new frameworks, tools, and best practices to stay up-to-date in this ever-evolving field. Outside of coding, I enjoy content creation, cinematic video editing, and exploring new tech trends. My ultimate goal is to contribute to meaningful projects that make a difference, whether it's through innovative product development or impactful digital solutions. I'm excited about the future of technology and look forward to connecting with like-minded professionals and teams.<p>          
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------Services--------- -->
+<!-- 
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis debitis, aliquid praesentium error sed neque fuga autem nihil incidunt rem ea? Labore porro dicta iusto, tempore placeat quo aliquam recusandae?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis debitis, aliquid praesentium error sed neque fuga autem nihil incidunt rem ea? Labore porro dicta iusto, tempore placeat quo aliquam recusandae?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis debitis, aliquid praesentium error sed neque fuga autem nihil incidunt rem ea? Labore porro dicta iusto, tempore placeat quo aliquam recusandae?</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div> -->
+
+<!-- skills section -->
+<div id="portfolio1"> 
+    <!-- ------------Experience & Education Section------------- -->
+<div class="container">
+    <h1 class="sub-title center-title">Qualifications</h1>
+    <div class="about-animated-section">
+        <div class="animated-card education-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Education</h3>
+            <ul style="text-align: left;">
+                <li><strong>2023 - 2025 :</strong> Lambton College - PG in Full Stack Software Development, Canada</li>
+                <li><strong>2017 - 2021 :</strong> BE - Dr. Ambedkar Institute of Technology, Bangalore, India</li>
+                <li><strong>2016 :</strong> High School - Lord Buddha, Nepal</li>
+            </ul>
+        </div>
+        <div class="animated-card experience-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>2021-2022 :</strong> Guvi-chennai, Mern stack training</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <!-- ------------Animated Skills Section------------- -->
+<div id="skills-animated">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="animated-skills-grid">
+            <div class="skill-icon-box bounce">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill-icon-box bounce delay-1">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill-icon-box bounce delay-2">
+                <i class="fa-brands fa-square-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-icon-box bounce delay-3">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-icon-box bounce delay-4">
+                <i class="fa-brands fa-node-js"></i>
+                <p>Node.js</p>
+            </div>
+            <div class="skill-icon-box bounce delay-5">
+                <i class="fa-solid fa-database"></i>
+                <p>MongoDB</p>
+            </div>
+            <div class="skill-icon-box bounce delay-6">
+                <i class="fa-solid fa-layer-group"></i>
+                <p>Next.jS</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!------------Portfolio/Projects----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list" id="work-list"></div>
+        <div class="button-container">
+            <a href="#" class="btn" id="see-more-btn">See More</a>
+            <a href="#" class="btn" id="show-less-btn" style="display: none;" >Show Less</a>
+        </div>
+    </div>
+</div>
+
+<!-- ---------- Certifications ---------- -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certification-list">
+            <div class="certification">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Issued by Amazon Web Services in April 2024</p>
+                <a href="https://example.com/aws-certificate" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Responsive Web Design</h3>
+                <p>Issued by freeCodeCamp in January 2023</p>
+                <a href="https://example.com/responsive-web-design" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Responsive Web Design</h3>
+                <p>Issued by freeCodeCamp in January 2023</p>
+                <a href="https://example.com/responsive-web-design" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Responsive Web Design</h3>
+                <p>Issued by freeCodeCamp in January 2023</p>
+                <a href="https://example.com/responsive-web-design" target="_blank">View Certificate</a>
+            </div>
+            <div class="certification">
+                <h3>Responsive Web Design</h3>
+                <p>Issued by freeCodeCamp in January 2023</p>
+                <a href="https://example.com/responsive-web-design" target="_blank">View Certificate</a>
+            </div>
+            <!-- Add more certifications here -->
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------Contact------- -->
+<div id="contact">
+   <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bibek.bhattarai072@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 437 6618967</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/bibek-bhattarai-56300510b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/bibek-12345" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/bibekbhattarai75" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100079556062877" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2" target="_blank" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="Email" placeholder="YourEmail" required>
+                    <textarea name="Message" rows="6" placeholder="YourMessage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+   </div>
+   <div class="copyright">
+    <p>Copyright @ 2024 All rights reserved by <i class="fa-solid fa-heart"></i> Bibek Bhattarai.</p>
+   </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
