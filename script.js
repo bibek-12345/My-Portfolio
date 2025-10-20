@@ -102,7 +102,7 @@ const projects = [
         githubLink: "https://github.com/your-username/social-media-app" 
     },
     { 
-        img: "images/work-1.png", 
+        img: "images/work-2.png", 
         title: "Social Media App", 
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
         link: "https://your-netlify-link-1.netlify.app",
