@@ -88,7 +88,7 @@ const projects = [
         githubLink: "https://github.com/bibek-12345/JavaScriptGamesProjects/tree/main/TicTacToe"
     },
     { 
-        img: "travel.png", 
+        img: "images/travel.png", 
         title: "Travel website", 
         description: "Created simple travel website using just html and css.", 
         link: "https://cheery-babka-785da0.netlify.app/",
