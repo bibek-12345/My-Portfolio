@@ -60,7 +60,7 @@ window.addEventListener('scroll', function() {
 document.querySelector('#sidemenu .fa-xmark').addEventListener('click', closemenu);
 
 
-// -------------Contactn form get data of client to admin---------------
+// -------------Contact form get data of client to admin---------------
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxb-nylGeBamJZruEPrWMy7DBmN1AW_qTiDeV1dW_ha670hS7wtUNCLj30o4ypaAITe/exec'
 const form = document.forms['submit-to-google-sheet']
