@@ -229,7 +229,7 @@ particlesJS("particles-js", {
 
 // animated header text
 
-const text = "Hi, I'm Bibek Bhattarai from Canada";
+const text = "Hi, I'm Bibek Bhattarai";
 const typingSpan = document.getElementById("typing-text");
 let i = 0;
 function typeWriter() {
