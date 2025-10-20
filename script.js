@@ -81,17 +81,17 @@ form.addEventListener('submit', e => {
 // ------------Projects--------------
 const projects = [
     { 
-        img: "images/work-1.png", 
-        title: "Social Media App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://resilient-youtiao-8e7534.netlify.app/", 
-        githubLink: "https://github.com/your-username/social-media-app"
+        img: "images/tictactoe.png", 
+        title: "TicTacToe", 
+        description: "Created TicTacToe game using DOM and events concept of JS", 
+        link: "https://bejewelled-marzipan-debd8b.netlify.app/", 
+        githubLink: "https://github.com/bibek-12345/JavaScriptGamesProjects/tree/main/TicTacToe"
     },
     { 
         img: "images/work-2.png", 
         title: "Music App", 
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-2.netlify.app",
+        link: "https://resilient-youtiao-8e7534.netlify.app/",
         githubLink: "https://github.com/your-username/social-media-app" 
     },
     { 
@@ -122,48 +122,7 @@ const projects = [
         link: "https://your-netlify-link-3.netlify.app",
         githubLink: "https://github.com/your-username/social-media-app" 
     },
-    { 
-        img: "images/work-1.png", 
-        title: "Social Media App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-1.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-2.png", 
-        title: "Music App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-2.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-1.png", 
-        title: "Social Media App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-1.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-2.png", 
-        title: "Music App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-2.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-1.png", 
-        title: "Social Media App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-1.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-2.png", 
-        title: "Music App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-2.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
+ 
     
     // Add more projects as needed
 ];
