@@ -95,11 +95,11 @@ const projects = [
         githubLink: "https://github.com/bibek-12345/frontEndProjects/tree/main/TravelWebsite" 
     },
     { 
-        img: "images/work-3.png", 
-        title: "Online Shopping App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-3.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
+        img: "images/spotify.png", 
+        title: "spotify website", 
+        description: "Created simple spotify website using html and css.", 
+        link: "https://bejewelled-kringle-9f1d9c.netlify.app/",
+        githubLink: "https://github.com/bibek-12345/spotify-project" 
     },
     { 
         img: "images/work-2.png", 
