@@ -81,6 +81,13 @@ form.addEventListener('submit', e => {
 // ------------Projects--------------
 const projects = [
     { 
+        img: "images/travelbookingimage.png", 
+        title: "Travel Booking app", 
+        description: "Built Mern Stack web app where users can browse, review, book travel listings, with secure authentication, CRUD functionality, and responsive design.", 
+        link: "https://travel-booking-app-03so.onrender.com/listings", 
+        githubLink: "https://github.com/bibek-12345/travel-booking-app"
+    },
+    { 
         img: "images/tictactoe.png", 
         title: "TicTacToe", 
         description: "Created TicTacToe game using DOM and events concept of JS", 
