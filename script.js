@@ -88,6 +88,13 @@ const projects = [
         githubLink: "https://github.com/bibek-12345/travel-booking-app"
     },
     { 
+        img: "images/todo.png", 
+        title: "TodoList", 
+        description: "Created Todo List using react", 
+        link: "https://reacttodolist4.netlify.app/", 
+        githubLink: "https://github.com/bibek-12345/React_TodoList"
+    },
+    { 
         img: "images/tictactoe.png", 
         title: "TicTacToe", 
         description: "Created TicTacToe game using DOM and events concept of JS", 
