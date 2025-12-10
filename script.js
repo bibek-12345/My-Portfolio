@@ -122,6 +122,7 @@ const projects = [
         link: "https://bejewelled-kringle-9f1d9c.netlify.app/",
         githubLink: "https://github.com/bibek-12345/spotify-project" 
     },
+    
     // Add more projects as needed
 ];
 
@@ -172,7 +173,7 @@ function hideProjects() {
     }
     currentIndex = projectsPerLoad; // Update current index
     // Show the See More button again
-    if (currentIndex < projects.length) {
+    if (projects.length > currentIndex) {
         document.getElementById('see-more-btn').style.display = 'inline-block';
     }
     // Hide the Show Less button if only 4 or fewer projects are shown
