@@ -90,7 +90,7 @@ const projects = [
     { 
         img: "images/weather.png", 
         title: "Weather App", 
-        description: "Created Weather app to check the weather", 
+        description: "Created Weather app using react to check the weather", 
         link: "https://reactweatherapp4.netlify.app/", 
         githubLink: "https://github.com/bibek-12345/React_WeatherApp"
     },
