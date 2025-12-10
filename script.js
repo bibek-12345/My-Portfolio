@@ -88,6 +88,13 @@ const projects = [
         githubLink: "https://github.com/bibek-12345/travel-booking-app"
     },
     { 
+        img: "images/weather.png", 
+        title: "Weather App", 
+        description: "Created Weather app to check the weather", 
+        link: "https://reactweatherapp4.netlify.app/", 
+        githubLink: "https://github.com/bibek-12345/React_WeatherApp"
+    },
+    { 
         img: "images/todo.png", 
         title: "TodoList", 
         description: "Created Todo List using react", 
@@ -115,29 +122,6 @@ const projects = [
         link: "https://bejewelled-kringle-9f1d9c.netlify.app/",
         githubLink: "https://github.com/bibek-12345/spotify-project" 
     },
-    { 
-        img: "images/work-2.png", 
-        title: "Social Media App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-1.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-2.png", 
-        title: "Music App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-2.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
-    { 
-        img: "images/work-3.png", 
-        title: "Online Shopping App", 
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        link: "https://your-netlify-link-3.netlify.app",
-        githubLink: "https://github.com/your-username/social-media-app" 
-    },
- 
-    
     // Add more projects as needed
 ];
 
