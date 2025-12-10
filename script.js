@@ -162,13 +162,15 @@ function renderProjects() {
 function hideProjects() {
     const workList = document.getElementById('work-list');
     const workItems = workList.getElementsByClassName('work'); // Get all project items
+
+     // Calculate how many projects need to be removed to show only first 4
+    const removeCount = workItems.length - projectsPerLoad;
+
     // Remove the last 4 work items if they exist
-    for (let i = 0; i < projectsPerLoad; i++) {
-        if (workItems.length > 0) {
-            workList.removeChild(workItems[workItems.length - 1]);
-        }
+    for (let i = 0; i < removeCount; i++) {
+        workList.removeChild(workItems[workItems.length - 1]);
     }
-    currentIndex -= projectsPerLoad; // Update current index
+    currentIndex = projectsPerLoad; // Update current index
     // Show the See More button again
     if (currentIndex < projects.length) {
         document.getElementById('see-more-btn').style.display = 'inline-block';
